@@ -6,7 +6,7 @@ export default function FullWidthTextField() {
   return (
     <>
     <div>
-        <p>History of Present Illness</p>
+        <p id='hist'>History of Present Illness</p>
     <div className='box-upperside'>
         <h6>History Of Present Illness</h6>
         <input type="button" value='Import from Template'/>
