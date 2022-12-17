@@ -6,15 +6,7 @@ import "./MedicalHistory.css"
 export default function TextFieldHiddenLabel() {
   return (
     <>
-    <Stack
-      component="form"
-      sx={{
-        width: '25ch',
-      }}
-      spacing={2}
-      noValidate
-      autoComplete="off"
-    >
+    <div>
     <div>
         <p>Jaundice</p>    
         <p>Blood Transfusions</p>
@@ -43,7 +35,7 @@ export default function TextFieldHiddenLabel() {
       variant="filled"
     />
     </div>
-    </Stack>
+    </div>
     </>
   );
 }
