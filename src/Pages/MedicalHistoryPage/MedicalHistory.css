@@ -21,4 +21,16 @@ div > #hist{
     font-weight: bold;
 }
 
+.flex-container {
+    display: flex;
+}
 
+.flex-child {
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 

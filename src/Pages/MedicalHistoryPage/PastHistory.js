@@ -1,41 +1,27 @@
-import * as React from 'react';
-import Stack from '@mui/material/Stack';
-import TextField from '@mui/material/TextField';
-import "./MedicalHistory.css"
+import React from "react";
 
-export default function TextFieldHiddenLabel() {
+const PastHistory = () => {
   return (
     <>
-    <div>
-    <div>
-        <p>Jaundice</p>    
-        <p>Blood Transfusions</p>
-        <p>Asthma/COPD</p>
-        <p>Tuberculosis</p>
-        <p>Thyroid Problem</p>
-    </div>
-    <div>
-    <TextField
-        id="filled-hidden-label-normal"
-        variant="filled"
-      /><TextField
-      id="filled-hidden-label-normal"
-      variant="filled"
-    /><TextField
-    id="filled-hidden-label-normal"
-    variant="filled"
-  /><TextField
-  id="filled-hidden-label-normal"
-  variant="filled"
-/><TextField
-        id="filled-hidden-label-normal"
-        variant="filled"
-      /><TextField
-      id="filled-hidden-label-normal"
-      variant="filled"
-    />
-    </div>
-    </div>
+      <div className="flex-container">
+        <div className="flex-child">Jaundice</div>
+        <input type="text" className="flex-child" />
+      </div>
+      <div className="flex-container">
+        <div className="flex-child">Blood Transfusions</div>
+        <input type="text" className="flex-child" />
+      </div><div className="flex-container">
+        <div className="flex-child">Asthma/COPD</div>
+        <input type="text" className="flex-child" />
+      </div><div className="flex-container">
+        <div className="flex-child">Tuberculosis</div>
+        <input type="text" className="flex-child" />
+      </div><div className="flex-container">
+        <div className="flex-child">Thyroid Problem</div>
+        <input type="text" className="flex-child" />
+      </div>
     </>
   );
-}
+};
+
+export default PastHistory;
