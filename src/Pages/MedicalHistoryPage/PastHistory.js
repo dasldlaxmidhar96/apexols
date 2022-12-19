@@ -3,6 +3,9 @@ import React from "react";
 const PastHistory = () => {
   return (
     <>
+    <div className="seconddiv">
+      <p>Past History</p>
+      <div className="firstdiv22">
       <div className="flex-container">
         <div className="flex-child">Jaundice</div>
         <input type="text" className="flex-child" />
@@ -19,6 +22,8 @@ const PastHistory = () => {
       </div><div className="flex-container">
         <div className="flex-child">Thyroid Problem</div>
         <input type="text" className="flex-child" />
+      </div>
+      </div>
       </div>
     </>
   );

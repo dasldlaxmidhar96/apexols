@@ -5,7 +5,11 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import HistoryOfPreill from "./HistoryOfPreIill";
-import PastHistory from "./PastHistory"
+import PastHistory from "./PastHistory";
+import DiabetesandCompli from "./DiabetesandCompli";
+import TayerOrganInvolvement from "./TayerOrganInvolvement";
+import RenalHistory from "./RenalHistory";
+import PersonalHistory from "./PersonalHistory";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -55,7 +59,7 @@ export default function BasicTabs() {
           <Tab label="Past History" {...a11yProps(1)} />
           <Tab label="Diabetes and its complications" {...a11yProps(2)} />
           <Tab label="Tayer Organ Involvement" {...a11yProps(3)} />
-          <Tab label="Rental History" {...a11yProps(4)} />
+          <Tab label="Renal History" {...a11yProps(4)} />
           <Tab label="Personal History" {...a11yProps(5)} />
           <Tab label="Family History" {...a11yProps(6)} />
         </Tabs>
@@ -67,14 +71,14 @@ export default function BasicTabs() {
         <PastHistory />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Diabetes and its complications
+        <DiabetesandCompli />
       </TabPanel>
       <TabPanel value={value} index={3}>
-        Tayer Organ Involvement
+        <TayerOrganInvolvement />
       </TabPanel><TabPanel value={value} index={4}>
-        Rental History
+        <RenalHistory />
       </TabPanel><TabPanel value={value} index={5}>
-        Personal History
+        <PersonalHistory />
       </TabPanel><TabPanel value={value} index={6}>
         Family History
       </TabPanel>

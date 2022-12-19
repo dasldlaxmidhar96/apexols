@@ -34,3 +34,101 @@ div > #hist{
 .flex-child:first-child {
     margin-right: 20px;
 } 
+.smallbtn{
+    text-align: center;
+    height: 30px;
+    margin-top: 5px;
+    border: none;
+}
+.largebtn{
+    padding-top: 2px;
+    border: none;
+    margin-left: 5px;
+}
+
+.seconddiv{
+    border: 2px solid gray;
+    padding: 40px;
+    width: 200vh;
+    margin: auto;
+}
+p{
+    font-weight: bold;
+}
+.firstdiv22{
+    border: 2px solid gray;
+    padding: 40px;
+    width: 150vh;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 65px;
+    padding: 5px;
+}
+nav ul a{
+    margin-right: 100px;
+}
+.checkdiv{
+    margin-top: 7px;
+    display: inline-block;
+}
+.Tayer{
+    border: 2px solid gray;
+}
+
+/* .fine{
+    display: inline-block;
+} */
+.renal ul{
+    float: right;
+}
+.renal ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 125px;
+    padding: 5px;
+}
+.alco{
+    display: inline-block;
+    background-color: aquamarine;
+    width: 100px;
+    margin-right: 200px;
+
+}
+.marginkk{
+    margin-right: 275px;
+}
+.marginkk22{
+    margin-right: 517px;
+}
+.eyes{
+    
+    font-size: 13px;
+}
+.tayHei{
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.last{  
+    margin-right: 212px;
+}
+.tdiv{
+    border: 1px solid gray;
+    height: 40vh;
+    width: 80rem;
+}
+.fsizekliye{
+    font-size: 10px;
+}
+.atlast{
+    margin-right: 350px;
+}
+
+
+
+
