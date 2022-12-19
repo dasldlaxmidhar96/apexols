@@ -27,6 +27,7 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { styled } from "@mui/material/styles";
 import MedicalHistory from "./MedicalHistory";
+import Form from "../Pages/Form/Form"
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -432,63 +433,7 @@ export default function DoctorSettings() {
                 </LocalizationProvider>
               </div>
               <div>
-                <TableContainer component={Paper}>
-                  <Table
-                    sx={{
-                      marginTop: "10px"
-                    }}
-                    aria-label="customized table"
-                  >
-                    <TableBody>
-                      <StyledTableRow>
-                        <StyledTableCell>
-                          Height
-                        </StyledTableCell>
-                        <StyledTableCell>
-                          <div>
-                            <TextField
-                              id="outlined-basic"
-                              label=""
-                              size="small"
-                              variant="outlined"
-                              fullWidth
-                              value={height}
-                              onKeyPress={handleHeight}
-                            />
-                          </div>
-                        </StyledTableCell>
-                      </StyledTableRow>
-                      <StyledTableRow>
-                        <StyledTableCell>
-                          Weight
-                        </StyledTableCell>
-                        <StyledTableCell>
-                          <div>
-                            <TextField
-                              id="outlined-basic"
-                              label=""
-                              size="small"
-                              variant="outlined"
-                              fullWidth
-                              value={weight}
-                              onKeyPress={handleWeight}
-                            />      
-                          </div>
-                        </StyledTableCell>
-                      </StyledTableRow>
-                      <StyledTableRow>
-                        <StyledTableCell>
-                          BMI
-                        </StyledTableCell>
-                        <StyledTableCell>
-                          <div>
-                            {BMI === 0 ? '-' : BMI}
-                          </div>
-                        </StyledTableCell>
-                      </StyledTableRow>
-                    </TableBody>
-                  </Table>
-                </TableContainer>
+                <Form />
               </div>
             </Box>
           </CardContent>

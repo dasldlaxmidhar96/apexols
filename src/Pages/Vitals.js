@@ -1,8 +1,9 @@
 import React from 'react'
+import Form from "../Pages/Form/Form" 
 
 const Vitals = () => {
   return (
-    <>Vitals</>
+    <><Form /></>
   )
 }
 
