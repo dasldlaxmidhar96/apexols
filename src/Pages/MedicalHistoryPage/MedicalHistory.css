@@ -1,16 +1,15 @@
 .area{
-    width: 80rem;
-    height: 10rem;
+    width: 65rem;
+    height: 30vh;
+    margin-left: 5px;
     text-align: center;
-}
-.area-menu{
-    text-align: center;    
+
 }
 .box-upperside{
     display: flex;
     justify-content: right;
-    margin-bottom: 2px;
-    margin-right: 10px;
+    margin-bottom: 4px;
+    margin-right: 70px;
 }
 h6{
     margin-right: 5px;
@@ -47,18 +46,14 @@ div > #hist{
 }
 
 .seconddiv{
-    border: 2px solid gray;
     padding: 40px;
-    width: 200vh;
     margin: auto;
 }
 p{
     font-weight: bold;
 }
 .firstdiv22{
-    border: 2px solid gray;
     padding: 40px;
-    width: 150vh;
 }
 nav ul{
     float: right;
@@ -117,16 +112,15 @@ nav ul a{
 .last{  
     margin-right: 212px;
 }
-.tdiv{
-    border: 1px solid gray;
-    height: 40vh;
-    width: 80rem;
-}
 .fsizekliye{
     font-size: 10px;
 }
 .atlast{
     margin-right: 350px;
+}
+.allLi{
+    width: 20;
+    padding: 20px;
 }
 
 
