@@ -3,7 +3,7 @@ import * as React from 'react';
 export default function RowRadioButtonsGroup() {
   return (
     <>
-   <div  style={{border:"2px solid grey", height:"70vh"}}>
+   <div  style={{border:"1px solid grey", display:"inline-block"}}>
         
         <div>
             <p className='fine'>Renal History</p>

@@ -57,6 +57,7 @@ const Sidebar = () => {
            to="/summaryandprint" className="nav-link text-light">
               Summary and Print
             </Link>
+            <Link to="/doctorsettings" className="nav-link text-light">DoctorSettings</Link>
           </li>
         </ul>
       </div>
