@@ -1,0 +1,35 @@
+.marg{
+    margin-left: 20px;
+}
+.only1{
+    background-color: rgb(33, 88, 30);
+    color: aliceblue;
+    border-radius: 3px;
+    padding: 2px 10px;
+    font-size: 13px;
+}
+.btncolor{
+    margin-left: 5px;
+    border: none;
+    border-radius: 3px;
+}
+.blue{
+    background: rgb(33, 82, 196);
+}
+.sky{
+    background: rgb(107, 196, 231);
+}
+.orange{
+    background-color: rgb(179, 106, 17);
+}
+.red{
+    background-color: rgb(174, 22, 22);
+}
+.red2{
+    background-color: rgb(174, 22, 22);
+    margin-right: 5px;
+}
+
+.textcolor{
+color: aliceblue;
+}

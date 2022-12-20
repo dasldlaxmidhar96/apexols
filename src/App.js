@@ -17,14 +17,16 @@ import SummaryandPrint from './Pages/SummaryandPrint'
 import Vitals from './Pages/Vitals'
 // import Sidebar from "./components/Sidebar";
 import DoctorSettings from "./Pages/DoctorSettings";
+import Billing1 from "./components/BillingPages/Billing1";
 
 function App() {
   return (
     <>
       {/* <Header /> */}
       {/* <Sidebar /> */}
+      <Billing1 />
       <Routes>
-        <Route path="/" element={<DoctorSettings />} />
+        {/* <Route path="/" element={<DoctorSettings />} /> */}
         {/* <Route path="/diagnosis" element={<Diagnosis />} />
         <Route path="/examination" element={<Examination />} />
         <Route path="/ipaddmission" element={<IPAddmission />} />
