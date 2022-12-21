@@ -28,8 +28,25 @@
 .red2{
     background-color: rgb(174, 22, 22);
     margin-right: 5px;
+    display: inline-flex;
 }
+.redborder{
+    border: none;
+    color: #ffffff;
+    padding:0px, 7px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.btn2{
+    background-color: rgb(154, 208, 73);
+    padding: 0px 4px;
+    border-radius: 5px;
+}
+.btn4{
+    background-color: rgb(225, 149, 6);
+    border-radius: 5px;
 
+}
 .textcolor{
 color: aliceblue;
 }
@@ -40,4 +57,35 @@ color: aliceblue;
 }
 .secondSpan{
     margin-left: 12rem;
+}
+
+.shortSpan{
+    display: inline-flex;
+    font-family: sans-serif;
+}
+.shortSpan2{
+    margin-left: 15px;
+    font-family: sans-serif;
+}
+.btnlast{
+    padding: 3px 15px;
+    border: none;
+}
+.marginjust{
+    margin-top: 2px;
+}
+.savecolor{
+    background-color: rgb(10, 10, 133);
+    color: #ffffff;
+    border-radius: 5px;
+}
+.savePrintcolor{
+    background-color: rgb(69, 165, 69);
+    color: #ffffff;
+    border-radius: 5px;
+}
+.printcolor{
+    background-color: rgb(101, 188, 222);
+    color: #ffffff;
+    border-radius: 5px;
 }

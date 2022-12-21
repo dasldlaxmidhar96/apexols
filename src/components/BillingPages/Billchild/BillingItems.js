@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import BillingItems2 from "./BillingItems2"
 import { Stack } from '@mui/system';
 import PaymentRefund from './PaymentRefund';
+import ShortcutKeys from './ShortcutKeys';
 
 export default function BackgroundColor() {
   return (
@@ -26,6 +27,7 @@ export default function BackgroundColor() {
       </Stack>
     </Stack>
     <PaymentRefund />
+    <ShortcutKeys />
     </>
   );
 }

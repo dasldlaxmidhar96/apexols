@@ -16,7 +16,7 @@ const PaymentRefund = () => {
             <Button sx={{ bgcolor:"" }} className='spacex' variant='contained' color='warning' >&#43;Payment</Button>
         </Box>
     </Stack>
-    <Stack sx={{  bgcolor: '#F2F3F2', ml:"14px", p:1,pr:7, display:"inline-block", border:1, borderColor:"gray"}}>
+    <Stack sx={{  bgcolor: '#F2F3F2', ml:"15px", p:1,pr:7, display:"inline-block", border:1, borderColor:"gray"}}>
         <Box>
             <Button className='spacex' variant='contained' color='warning' >&#43;Payment</Button>
             <span className='secondSpan'>Refunds:</span>
